@@ -1009,7 +1009,7 @@ body.light-theme,
   }
 }
 
-@media screen and (min-width: 380px) {/*767*/
+@media screen and (min-width: 767px) {/*767*/
   .work__container {
     grid-template-columns: repeat(2, max-content);
   }
