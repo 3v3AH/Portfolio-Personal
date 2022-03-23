@@ -295,7 +295,7 @@ body.light-theme,
 
 /* Change background header */
 .scroll-header {
-  box-shadow: 0 4px 4px hsla(0, 0%, 4%, .3);
+  box-shadow: 0 4px 4px rgba(190, 128, 170, 0.925);/*0,0%,4%, .3*/
 }
 
 /*=============== HOME ===============*/
@@ -416,7 +416,7 @@ body.light-theme,
 .button {
   display: inline-block;
   background-color: var(--first-color);
-  color: var(--body-color);
+  color:var(--body-color);/*var(--body-color)*/
   padding: .75rem 1rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
@@ -715,30 +715,6 @@ body.light-theme,
   color: var(--body-color);
 }
 
-/*=============== TESTIMONIAL ===============*/
-.testimonial__card {
-  background-color: var(--container-color);
-  padding: 1.25rem 1.5rem;
-  border-radius: 1.5rem;
-  margin-bottom: 3rem;
-}
-
-.testimonial__img {
-  width: 60px;
-  border-radius: 3rem;
-  margin-bottom: 1rem;
-}
-
-.testimonial__name {
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
-  margin-bottom: .25rem;
-}
-
-.testimonial__description {
-  font-size: var(--small-font-size);
-}
-
 /* Swiper class */
 .swiper-pagination-bullet {
   background-color: var(--text-color-light);
@@ -959,7 +935,7 @@ body.light-theme,
 /* For medium devices */
 @media screen and (min-width: 576px) {
   .nav__menu {
-    width: 328px;
+    width: 400px;
     left: 0;
     right: 0;
     margin: 0 auto;
